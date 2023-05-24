@@ -1,0 +1,30 @@
+curl -u503349001:<PASSWORD> -T <PATH_TO_FILE> "https://hc-us-east-aws-artifactory.cloud.health.ge.com/artifactory/generic-uls-abus-common-release/<TARGET_FILE_PATH>"
+
+
+curl -u503349001:Kwabby@80el -T https://artifactory.build.ge.com/ui/repos/tree/General/ULYUH "https://hc-us-east-aws-artifactory.cloud.health.ge.com/ui/repos/tree/General/generic-uls-abus-common-release"
+
+jfrog rt upload --flat=false "${bamboo.public.name-update-site}/*" p2-release-local/
+
+
+jfrog rt upload --flat=false "${https://hc-us-east-aws-artifactory.cloud.health.ge.com}/*" generic-uls-abus-common-release
+
+cmVmdGtuOjAxOjE3MTI2NzYyNjk6cnMzV09FamYyVUszR3FpcHFaYkVJSnJGTVhR
+
+$ ..\jf rt u "JFROG/*.zip" https://hc-us-east-aws-artifactory.cloud.health.ge.com//generic-uls-abus-common-release/
+
+
+..\Data\JFROG rt upload --insecure-tls   --https://hc-us-east-aws-artifactory.cloud.health.ge.com/ $ARTIFACTORY_US --user $ARTUSER --apikey `cat /data/bin/.uskeyservice`  $i.tar.gz $ARTREPO/
+
+..\..\Data\JFROG rt upload --insecure-tls   --url https://hc-us-east-aws-artifactory.cloud.health.ge.com/ --user $503349001 --password `cmVmdGtuOjAxOjE3MTI2NzYyNjk6cnMzV09FamYyVUszR3FpcHFaYkVJSnJGTVhR`  $i.tar.gz $generic-uls-abus-common-release/
+
+
+############################################################################################################################
+
+this for upload
+
+jf.exe rt upload --insecure-tls   --url https://hc-us-east-aws-artifactory.cloud.health.ge.com/artifactory --user 503349001 --password cmVmdGtuOjAxOjE3MTI2NzY5ODI6OUg1V0VKbTlpV05yTk5LVWU2akk2Y1FPNzcy  "*.zip" "generic-uls-abus-common-release/ULYUH/"
+
+#########################################################################################################################
+
+##########################################################################################################################
+this is for Download
